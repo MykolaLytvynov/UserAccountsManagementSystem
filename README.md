@@ -2,7 +2,7 @@
 
 A REST API application for managing information about user accounts 
 (ID, username, gender, age, account creation timestamp), allowing for creation, reading, updating and deletion functionalities. 
-User accounts data are stored in H2 database. API responses are in JSON format.
+User accounts data are stored in PostgreSQL database. API responses are in JSON format.
 Code is covered by unit tests using Spring.
 
 ## Setup Instructions
@@ -43,7 +43,7 @@ Code is covered by unit tests using Spring.
 - Mockito
 - Lombok
 - Spring Data Jpa
-- H2
+- PostgreSQL
 - Maven
 
 
